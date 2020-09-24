@@ -18,7 +18,7 @@ mongoose.connect(DB,{useUnifiedTopology:true,useNewUrlParser:true})
 
 // routes Middlwares
 app.use(express.json());
-app.use('/api/user',userRouter)
+app.use('/api/user/',userRouter)
 
 
 
